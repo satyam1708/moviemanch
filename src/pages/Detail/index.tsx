@@ -29,10 +29,10 @@ const Detail = () => {
     document.title =
       (movie?.title || movie?.name) && !isLoading
         ? movie.title || movie.name
-        : "tMovies";
+        : "MovieManch";
 
     return () => {
-      document.title = "tMovies";
+      document.title = "MovieManch";
     };
   }, [movie?.title, isLoading, movie?.name]);
 

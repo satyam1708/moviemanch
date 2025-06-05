@@ -1,9 +1,9 @@
 {
-  "name": "tmovies",
+  "name": "MovieManch",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "author": "Sudeep Mahato",
+  "author": "Satyam Pandey",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
